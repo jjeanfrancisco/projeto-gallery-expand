@@ -5,47 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Image Gallery Expand</title>
+    <title>Galeria de Imagens</title>
 </head>
 <body>
     <div class="gallery">
+        <!-- Galeria de Imagens -->
         <div class="img-container">
             <img
-             src="./previews/pexels-aleksey-kuprikov-preview.jpg" 
-            alt="this is pexels-aleksey-kuprikov" 
-            data-original="./full/pexels-aleksey-kuprikov-full.jpg"
+                src="./previews/pexels-aleksey-kuprikov-preview.jpg"
+                alt="Foto de paisagem por Aleksey Kuprikov"
+                data-original="./full/pexels-aleksey-kuprikov-full.jpg"
             />
         </div>
-
         <div class="img-container">
-            <img 
-            src="./previews/pexels-eberhard-grossgasteiger-preview.jpg" 
-            alt="this is pexels-eberhard-grossgasteiger" 
-            data-original="./full/pexels-eberhard-grossgasteiger-full.jpg"
+            <img
+                src="./previews/pexels-eberhard-grossgasteiger-preview.jpg"
+                alt="Foto de paisagem por Eberhard Grossgasteiger"
+                data-original="./full/pexels-eberhard-grossgasteiger-full.jpg"
             />
         </div>    
-
         <div class="img-container">
             <img
-             src="./previews/pexels-kevin-menajang-preview.jpg"
-             alt="this is pexels-kevin-menajang" 
-             data-original="./full/pexels-kevin-menajang-full.jpg"
-              />
+                src="./previews/pexels-kevin-menajang-preview.jpg"
+                alt="Foto de paisagem por Kevin Menajang"
+                data-original="./full/pexels-kevin-menajang-full.jpg"
+            />
         </div>
-
         <div class="img-container">
-            <img 
-            src="./previews/pexels-luck-galindo-preview.jpg" 
-            alt="this is pexels-luck-galindo" 
-            data-original="./full/pexels-luck-galindo-full.jpg"
+            <img
+                src="./previews/pexels-luck-galindo-preview.jpg"
+                alt="Foto de paisagem por Luck Galindo"
+                data-original="./full/pexels-luck-galindo-full.jpg"
             />
         </div>
     </div>
-        <div class="modal">
-            <img src="/full/pexels-luck-galindo-full.jpg" alt="" class="full-img">
-            <p class="caption"></p>
-        </div>
-        
+
+    <!-- Modal de Imagem -->
+    <div class="modal" role="dialog" aria-hidden="true" aria-labelledby="modalCaption">
+        <img src="/full/pexels-luck-galindo-full.jpg" alt="" class="full-img" role="img">
+        <p class="caption" id="modalCaption"></p>
+    </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
